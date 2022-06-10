@@ -27,12 +27,19 @@ Create two RESTful microservices, one for the word list of valid guesses and one
 The word validation service should expose the following operations:
 
 Checking if a guess is a valid five-letter word
+
 Adding and removing possible guesses
+
 The answer checking service should expose the following operations:
+
 Checking a valid guess against the answer for the current day.
+
 If the guess is incorrect, the response should identify the letters that are:
+
 in the word and in the correct spot,
+
 in the word but in the wrong spot, and
+
 not in the word in any spot
 
 
